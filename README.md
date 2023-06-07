@@ -1,4 +1,4 @@
-###Problem Statement
+<h1>Problem Statement</h1>
 
 The estimation of the remaining useful life (RUL) of engine air filters in the mining industry is a significant concern. Air filters are used to prevent harmful dust particles from entering the engine components. However, over time, the filter becomes contaminated, leading to increased air flow restriction.
 
@@ -8,7 +8,7 @@ In the current scenario, operators are unable to accurately determine the remain
 
 Our proposed approach aims to solve this problem by predicting the remaining useful life of the filter. The method involves identifying the point of filter plugging and then estimating the RUL based on the rate of KPA increment. By monitoring the rate of pressure increase, we can provide operators with early warnings and proactive maintenance recommendations to avoid unexpected shutdowns and minimize downtime.
 
-##Objective of Remaining Useful Life:
+<h2>Objective of Remaining Useful Life:</h2>
 
 Null Hypothesis: There is no correlation between the air-filter differential pressure and the operating time of the truck. The rate of increment of KPA does not affect RUL prediction.
 
@@ -24,7 +24,7 @@ Determine the rate of increment in the differential pressure based on time using
 
 Apply the mathematical equation or regression model to estimate the remaining useful life (RUL) of the filters.
 
-##Proposed Solution:
+<h2>Proposed Solution:</h2>
 
 Estimate the time to failure of the four differential air filters.
 
@@ -34,7 +34,7 @@ Generate an alert when the estimated RUL to reach 7.5 KPA is less than 100 hours
 
 Send an alert when there is abnormal behavior in the inner left, inner right, outer left, or outer right differential pressure, such as sudden and continuous spikes or drops, no data, false filter change behavior, or no trend in data after 1000 truck operating hours.
 
-##Solution Architecture:
+<h2>Solution Architecture:</h2>
 
 Collect data from the PI Server or other data sources.
 
